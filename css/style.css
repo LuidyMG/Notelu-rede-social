@@ -1,0 +1,70 @@
+.a{
+      text-decoration: none;
+}
+.mobile{
+      display: none;
+    }
+@media screen and (max-width: 990px) {
+    .mobile {
+      display: block;
+    }
+    .descktop {
+      display: none;
+    }
+    .descktop-img{
+      display: none;
+    }
+  }
+.mao:hover{
+	cursor: pointer;
+}
+.descktop-img{
+     	position: absolute;
+    }
+.login{
+     	position: relative;
+     	top: 200px;
+    }
+.cor{
+     	background-color: #ef4566;
+     	color: #fff;
+    }
+.cor:focus{
+     	background-color: #ef4566;
+     	color: #fff;
+    }
+.cor:hover{
+     	cursor: pointer;
+    }
+.text-cor{
+     	color: #ef4566;
+    }
+.centra{
+     	text-align: center;
+    }
+.btnu{
+     	width: 100px;
+    }
+.icon{
+     	color: #ef4566;
+    }
+.space-menu{
+     	margin-left: 10px;
+    }
+.inputbunito{
+  display: block;
+  width: 70%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-image: none;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.click:active .menuM{
+     	display: block;
+    }
